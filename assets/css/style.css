@@ -1,10 +1,5 @@
 /* ************************************************************
-:: Template Name: sApp - App Landing Page Template
-:: Template URI: http://theme-land.com/sApp
-:: Template Author Name: theme_land
-:: Template Author URI: hridoy1272@gmail.com
-:: Version: 1.0.0
-:: Created: 31 January 2020
+Nanban Connect
 ************************************************************ 
 *
 *
@@ -733,7 +728,7 @@ img {
 #scrollUp {
     position: fixed;
     right: 2%;
-    bottom: 3%;
+    bottom: 15%;
     height: 45px;
     width: 40px;
     border-radius: 4px;
@@ -748,7 +743,7 @@ img {
 
 #scrollUp > svg {
     display: block;
-    height: 100%;
+    height: 90%;
     font-size: 22px;
     color: #fff;
     margin: 0 auto;
@@ -763,6 +758,7 @@ img {
 ****************************** */
 .navbar {
     position: absolute;
+   
     top: 0;
     left: 0;
     right: 0;
@@ -1694,7 +1690,7 @@ img {
 :: 22.0 BREADCRUMB AREA CSS
 ****************************** */
 .breadcrumb-area {
-    height: 450px;
+    height: 250px;
     z-index: 1;
 }
 
@@ -1843,7 +1839,7 @@ img {
 .widget-items li a:focus::before,
 .widget-items li a.active::before {
     width: 2px;
-    background-color: #28b45e;
+    background-color: #23b45b;
 }
 
 .widget-items li a span {
@@ -2231,3 +2227,5 @@ img {
         padding-top: 0;
     }
 }
+
+
