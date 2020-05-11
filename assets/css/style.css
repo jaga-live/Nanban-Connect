@@ -1690,7 +1690,7 @@ img {
 :: 22.0 BREADCRUMB AREA CSS
 ****************************** */
 .breadcrumb-area {
-    height: 250px;
+    height: 200px;
     z-index: 1;
 }
 

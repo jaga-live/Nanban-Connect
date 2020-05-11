@@ -1,0 +1,280 @@
+
+/* Universal */
+
+/* body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  */
+    /* background: linear-gradient(110deg, #5abe62 60%, #9ac98f 60%); */
+    /* background-color: #ffffff; */
+    /* background-color: #9ac98f; */
+    /* background-color: #edeff0;
+    overflow-x: hidden; */
+/* } */
+/* body p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.2rem; 
+    color: rgb(88, 87, 87); 
+    margin: 0;
+}
+body h1{
+    font-weight: 400;
+    color:#2c2c2b;
+    font-size: 2rem;
+    font-family: cursive;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 70px;
+    width: 100%;
+    background-color: #ffffff;
+    z-index: 1;
+}
+main{
+    position: absolute;
+    left: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    z-index: 0;
+} */
+
+
+/* inner stylings */
+/* Footer */   
+
+.footer{
+    margin-top: 25px;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+
+    /* Owners */
+
+.Owners{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    height: fit-content;
+}
+.Owners .img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 200px;
+    margin: 0%;
+    padding: 0%;
+    background-size: cover; 
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.Owners .Linkedin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 100;
+    width: 45px;
+    height: 45px;
+    background-color: #3776cc;
+    color: #ffffff;
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-top: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.ml{
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ml:hover{
+    opacity: 1;
+}
+
+.modal1{
+    display: block;
+    position: relative;
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+    background-color: green;
+    opacity: 0.5;
+}
+/* 
+.Owners .Linkedin:hover{
+    color: #fffafa;
+    background-color: ;
+} */
+
+.Owners .div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 60%;
+}
+/* .Owners.div:hover + .modal1 {
+    display: block;
+} */
+.Owners span{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    margin: 40px 5px 5px 5px;
+    /* box-sizing: border-box; */
+    height: fit-content;
+    min-height: 320px;
+    width: 32%;
+    min-width: 170px;
+}
+.Owners h4{
+    margin-top: 5px;
+}
+.Owners p {
+    color: green;
+}
+
+    /* Interns */
+.Interns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Interns .intern{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: 100% 100%;
+}
+.Interns div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 10px;
+    max-width: 100%;
+}
+.Interns span{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 17%;
+    height: fit-content;
+    min-height: 290px;
+    min-width: 150px;
+    margin: 5px;
+}
+.Interns h4{
+    color: rgb(51, 50, 50);
+    margin: 1px;
+}
+
+/* CA */
+.CA{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.CA .div{
+    padding-top: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.CA .ca{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    /* background-size: 100% 100%; */
+}
+
+.CA h4{
+    padding-top: 6px;
+}
+
+.CA .div span{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 23%;
+    height: fit-content;
+    min-width: 150px;
+    min-height: 290px;
+    margin: 5px;
+}
+
+/* Backend Team */
+.Backend{
+    padding-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Backend .div{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 50%;
+}
+.Backend span{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 40%;
+    height: fit-content;
+    min-width: 150px;
+    min-height: 290px;
+    margin: 5px;
+}
+.Backend .backend{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+}
+
+.Backend h4{
+    padding-top: 6px;
+}
