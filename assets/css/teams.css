@@ -297,3 +297,52 @@ main{
     text-decoration: none;
     
 }
+
+
+/* Pets section */
+
+.main-pet{
+ 
+}
+
+.pets{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.pets .div{
+    padding-top: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.pets .ca{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    /* background-size: 100% 100%; */
+}
+
+.pets h4{
+    padding-top: 6px;
+}
+
+.pets .div span{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 30%;
+    height: fit-content;
+    min-width: 150px;
+    min-height: 290px;
+    margin: 5px;
+}
