@@ -79,6 +79,7 @@ perspective effects (not including the modals and the overlay).
 	position: relative;
 	border-radius: 3px;
 	margin: 0 auto;
+	flex-direction: row;
 }
 
 .md-content h3 {
@@ -384,6 +385,7 @@ perspective effects (not including the modals and the overlay).
 
 /* Effect 11: Super scaled */
 .md-effect-11 .md-content {
+	
 	-webkit-transform: scale(2);
 	-moz-transform: scale(2);
 	-ms-transform: scale(2);
