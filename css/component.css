@@ -18,6 +18,10 @@ perspective effects (not including the modals and the overlay).
   margin: 5px;
 }
 
+button {
+  outline: none !important;
+}
+
 .md-perspective,
 .md-perspective body {
   height: 100%;
