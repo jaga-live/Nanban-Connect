@@ -1,7 +1,7 @@
 
 
 
-window.onload = ()=>{
+window.onload = () => {
     var a = document.getElementById('tri')
 
     a.click()
@@ -10,7 +10,7 @@ window.onload = ()=>{
 
 var b1 = document.getElementById('b1')
 
-b1.addEventListener('click',()=>{
+b1.addEventListener('click', () => {
 
     window.location.href = "old.html";
 })
@@ -21,5 +21,4 @@ b2.addEventListener('click', () => {
 
     window.location.href = "new.html";
 })
-
 
